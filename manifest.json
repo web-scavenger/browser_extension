@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "CashBack",
+    "description": "This extension for CashBack service",
+    "version": "1.0",
+ 
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title":  "CashBack Extension",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "tabs", "<all_urls>"
+    ]    
+}
